@@ -1,0 +1,5 @@
+entity.extvil.villager.name=Villager
+entity.Villager.miller=Miller
+entity.Villager.fisher=Fisher
+entity.Villager.baker=Baker
+entity.Villager.miner=Miner
