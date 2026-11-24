@@ -102,7 +102,7 @@ public class ComponentMiner extends ComponentExtVillage {
       this.setBlockState(world, st(roof, 0), 1, 10, 3, sbb);
       this.setBlockState(world, st(roof, 0), 1, 11, 4, sbb);
       this.fillWithBlocks(world, sbb, 1, 13, 2, 1, 13, 4, roof, roof, false);
-      int dept = new Random().nextInt(5) + 2;
+      int dept = com.electrifiedded.archaiclib.util.FastRandom.shared().nextInt(5) + 2;
       this.fillWithBlocks(world, sbb, 2, -dept, 2, 4, 0, 4, Blocks.AIR.getDefaultState(), Blocks.AIR.getDefaultState(), true);
       this.fillWithBlocks(world, sbb, 3, 14, 1, 3, 14, 5, Blocks.COBBLESTONE_WALL.getDefaultState(), Blocks.COBBLESTONE_WALL.getDefaultState(), false);
       this.fillWithBlocks(world, sbb, 1, 14, 3, 5, 14, 3, Blocks.COBBLESTONE_WALL.getDefaultState(), Blocks.COBBLESTONE_WALL.getDefaultState(), false);
